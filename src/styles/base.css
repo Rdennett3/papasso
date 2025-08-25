@@ -1,0 +1,119 @@
+:root {
+    --night: #011502;
+    --inner-width: 95%;
+    --inner-max-width: 1500px;
+}
+
+body {
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.p-10 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.landing-header-container {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-header-wrapper {
+    width: 95%;
+    height: auto;
+    min-height: 80vh;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-image: url('/images/lake.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.nav-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2.5%;
+}
+
+.nav-wrapper {
+    width: 95%;
+    height: auto;
+    padding: 10px 0;
+    background: #000;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1em 0;
+}
+
+.placeholder {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.placeholder-wrapper {
+    width: var(--inner-width);
+    max-width: var(--inner-max-width);
+    border: 2px solid #000;
+    border-radius: 25px;
+    min-height: 100vh;
+}
+
+/* GLOBAL FOOTER STYLES */
+
+.footer-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--night);
+    min-height: 50vh;
+}
+
+/* PRE FORM INFO ON CONTACT PAGE */
+
+.pre-form-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pre-form-wrapper {
+    width: var(--inner-width);
+    max-width: var(--inner-max-width);
+    height: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin-top: 2.5%;
+    border-radius: 25px;
+}
+
+.pre-form-wrapper p {
+    font-size: 2.5em;
+    padding: 0 5%;
+}
